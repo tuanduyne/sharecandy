@@ -82,7 +82,7 @@ function simulate() {
         return;
     }
 
-    fetch("http://127.0.0.1:5000/simulate", {
+    fetch("https://candy-share.onrender.com/simulate", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ candies })
